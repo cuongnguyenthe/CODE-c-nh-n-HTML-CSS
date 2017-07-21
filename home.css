@@ -1,0 +1,123 @@
+body{
+    background-image: url("../image/background.png");
+}
+#main{
+    width: 100%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 185px;
+    width: 1200px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-left: 80px;
+    margin-right: 80px;
+    top: 0px;
+    position: fixed;
+
+}
+#logo{
+    width: 200px;
+    height: 170px;
+    padding-left: 70px;
+    padding-top: 15px;
+    float: left;
+}
+#banner{
+    width: 700px;
+    height: 183px;
+    float: left;
+    padding-left: 50px;
+}
+#head-link{
+    height: 50px;
+    width: 1202px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-bottom: 2px;
+    margin-top: 202px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#head-link ul{
+    padding-left: 20px;
+}
+#head-link ul li{
+    display: inline;
+    margin: 5px;
+}
+#head-link-left{
+    float: left;
+}
+#head-link-right{
+    float: right;
+    padding-top: 5px;
+    padding-right: 200px;
+}
+#form{
+    padding-top: 10px;
+}
+#left{
+    width: 250px;
+    height: 1000px;
+    background-color: whitesmoke;
+    float: left;
+    margin-left: 80px;
+    border: 1px solid black;
+    margin-right: 2px;
+}
+#left_up{
+    text-align: center;
+    border: 1px solid black;
+}
+#left_down{
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+#truyendangdoc{
+    padding-left: 26px;
+}
+#content{
+    height: 2000px;
+    background-color: whitesmoke;
+    width: 948px;
+    margin-bottom: 2px;
+    float: left;
+    border: 1px solid black;
+}
+#truyenmoicapnhat{
+    height: 900px;
+    width: 948px;
+    border: 1px solid black;
+    float: left;
+}
+#truyenhot{
+    overflow: auto;
+}
+#truyenhot ul{
+    height: 1000px;
+    list-style-type: none;
+    overflow: auto;
+}
+#truyenhot ul li img{
+    float: left;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 90px;
+}
+#truyenhot ul li img:hover {
+}
+#footer{
+    height: 200px;
+    width: 1203px;
+    background-color: whitesmoke;
+    clear: both;
+    border: 1px solid black;
+    margin-left: 80px;
+    margin-right: 80px;
+}
